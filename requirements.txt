@@ -1,8 +1,21 @@
+# Core LangChain ecosystem
 langchain==0.3.26
-flask==3.1.1
-sentence-transformers==4.1.0
-pypdf==5.6.1
-langchain-pinecone==0.2.8
-langchain-openai==0.3.24
 langchain-community==0.3.26
+langchain-openai==0.3.24
+langchain-pinecone==0.2.8
+langchain-groq   # installs ChatGroq support
+
+# Web framework
+flask==3.1.1
+
+# NLP / embeddings
+sentence-transformers==4.1.0
+
+# PDF handling
+pypdf==5.6.1
+
+# Hugging Face Xet
+hf_xet
+
+# Local editable install (your own project code)
 -e .
